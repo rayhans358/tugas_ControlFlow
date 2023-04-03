@@ -2,7 +2,7 @@ let inputNilai = prompt(`Silahkan masukkan nilai anda : `);
 
 if (!inputNilai) {
   alert (`Silahkan masukkan nilai anda terlebih dahulu`);
-} else if (inputNilai > 100) {
+} else if (inputNilai > 100 || typeof 'string') {
   alert (`Silahkan masukkan nilai yang benar`);
 } else if (inputNilai >= 80 && inputNilai <= 100) {
   alert(`Selamat! Nilai anda A`);
